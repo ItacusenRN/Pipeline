@@ -1,0 +1,34 @@
+# --- Node.js / Next.js ---
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# --- C# / .NET Core ---
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+
+# --- Flutter / Dart ---
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# --- Environnement & Secrets (Mots de passe BDD, clés JWT) ---
+.env
+.env.local
+.env*.local
+appsettings.Development.json
+
+# --- Système ---
+.DS_Store
+Thumbs.db
+
+printf "\n# Médias lourds et archives de build"D:\Perso\Etude\Projets\DZamaRhum\DzamaRhum----Website-International-main\src\images\Histoire\histoire.mp4"\n" >> .gitignore
